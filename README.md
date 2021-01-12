@@ -14,6 +14,10 @@
 
 2. Activate it:
     .\venv\Scripts\Activate.ps1
-    
+
 3. Install Req:
     pip install -r requirements.txt
+
+4. Before Running jupyter lab:
+    *point the ipykernel to the venv*
+    python -m ipykernel install --user --name=data_vis
