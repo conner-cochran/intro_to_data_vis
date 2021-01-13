@@ -16,7 +16,8 @@
     .\venv\Scripts\Activate.ps1
 
 3. Install Req:
-    pip install -r requirements.txt
+    python -m pip freeze > requirements.txt
+    python -m pip install -r requirements.txt
 
 4. Before Running jupyter lab:
     *point the ipykernel to the venv*
